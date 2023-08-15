@@ -1,0 +1,19 @@
+@keyframes colorChange {
+  0% {
+    background-color: #ff6347; /* Couleur initiale */
+  }
+  100% {
+    background-color: #64acdd; /* Nouvelle couleur */
+  }
+}
+
+main {
+  height: 100vh;
+  background-color: #fba393d1;
+  animation: colorChange 3s infinite alternate; /* Animation de 3 secondes en boucle */
+}
+
+
+
+
+
